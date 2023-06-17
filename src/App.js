@@ -6,13 +6,32 @@ import AddStaff from './components/AddStaff';
 
 function App() {
 
-  const [employees, setEmployees] = useState([]);
+  const dbEmployees = [
+    {
+      "id": 1,
+      "first": "Oluwafemi",
+      "middle": "Patrick",
+      "surname": "Laizer",
+      "email": "femi@gmail.com",
+      "phone": "08081765645",
+      "gender": "Male",
+      "marital": "Married",
+      "location": "Lagos",
+      "dept": "Commercial",
+      "unit": "Metering Mgt",
+      "position": "Supervisor",
+      "status": "Inactive"
+    }
+  ]
+
+  const [employees, setEmployees] = useState(dbEmployees);
 
   const [showForm, setShowForm] = useState(false)
 
   useEffect(() => {
     const getEmployees = async () => {
       const dataFromServer = await fetchEmployees()
+      // console.log(dataFromServer);
       setEmployees(dataFromServer)
     }
 
@@ -25,7 +44,8 @@ function App() {
 
     const data = await res.json()
 
-    return data;
+    return !data ? dbEmployees : data;
+    // console.log(dbEmployees);
   }
 
   // ADD Employee to Database Staff List
