@@ -1,0 +1,30 @@
+.Staff table {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.Staff table tbody {
+    display: flex;
+    width: 100%;
+    /* padding: 0 1rem; */
+
+    /* border: 1px solid rgb(115, 255, 0); */
+}
+
+.Staff table tbody tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid rgb(49, 99, 207); */
+}
+
+.Staff table tbody tr td {
+    margin: 20px 10px 0 10px;
+    width: 70px;
+    font-size: 11.5px;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(85, 85, 85);
+    /* border: 1px solid black; */
+}

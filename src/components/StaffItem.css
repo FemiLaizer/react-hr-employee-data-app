@@ -1,0 +1,31 @@
+.StaffItem table {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+}
+
+.StaffItem table thead {
+    display: flex;
+    width: 100%;
+    /* padding: 0 1rem; */
+
+    /* border: 1px solid rgb(115, 255, 0); */
+}
+
+.StaffItem table thead tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid rgb(49, 99, 207); */
+}
+
+.StaffItem table thead tr td {
+    text-align: left;
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 70px;
+    align-items: center;
+    /* border: 1px solid black; */
+}

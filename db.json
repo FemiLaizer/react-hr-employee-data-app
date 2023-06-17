@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first": "Oluwafemi",
+      "middle": "Patrick",
+      "surname": "Laizer",
+      "email": "femi@gmail.com",
+      "phone": "08081765645",
+      "gender": "Male",
+      "marital": "Married",
+      "location": "Lagos",
+      "dept": "Commercial",
+      "unit": "Metering Mgt",
+      "position": "Supervisor",
+      "status": "Inactive"
+    },
+    {
+      "id": 2,
+      "first": "Oluronke",
+      "middle": "Dorcas",
+      "surname": "Omotosho",
+      "email": "rk@gmail.com",
+      "phone": "08081899645",
+      "gender": "Female",
+      "marital": "Married",
+      "location": "Abuja",
+      "dept": "Admin",
+      "unit": "Account & Finance",
+      "position": "Specialist",
+      "status": "Active"
+    },
+    {
+      "first": "Akorede",
+      "middle": "Beatrice",
+      "surname": "Laizer",
+      "email": "kode@gmail.com",
+      "phone": "09088675645",
+      "gender": "Female",
+      "marital": "Single",
+      "location": "Jos",
+      "dept": "Commercial",
+      "unit": "Customer Care",
+      "position": "Officer",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "first": "Keziah",
+      "middle": "Olamiposi",
+      "surname": "Laizer",
+      "email": "kazie@gmail.com",
+      "phone": "08177865756",
+      "gender": "Female",
+      "marital": "Single",
+      "location": "Rivers",
+      "dept": "Finance",
+      "unit": "Treasury",
+      "position": "Officer",
+      "status": "Active",
+      "id": 4
+    }
+  ]
+}
